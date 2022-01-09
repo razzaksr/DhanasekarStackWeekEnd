@@ -1,0 +1,54 @@
+Array:
+temporary storage >> value's changes effiective only at that execution
+fixed memory
+can be created for any data type, classes
+stores multiple values of same type, under one object/variable
+since multiple values referred by one object, index is key to access individulas
+index always starts with 0
+
+property:
+length >> count/size/capacity of elements in array
+
+
+
+usages:
+flipkart>> KART>> 25 items
+keypad phones>> inbox, contacts
+
+types:
+Single dimension:
+syntax:
+type[] var/obj=new type[size];
+type var/obj[]=new type[size];
+
+type[] var/obj={v1,v2,v3,v4.......};
+type var/obj[]={v1,v2,v3,v4.......};
+
+Multi dimesion
+Jagged
+
+
+Operations: time complexity, O(1), O(logn),O(n), O(nlogn), O(n2)
+Create	>> O(1)
+Insert	>> O(n)
+Read>> get the data by index>> O(1), conditions>> O(n)
+Update> by Index, by condition
+Delete >> can't delete memory since its fixed, rather can invalidate(0,null) the index value
+a. by index>> O(1)
+b. by condition>> O(n)
+List/ Traverse/ print	>> O(n), O(1)>> using Arrays.toString
+Search>> get the index/position, by data/value:
+Linear	>> visits everywhere in array to find position/index of the desired 		data>> O(n) >> 0 to n(array size)
+		can be performed over unordered/unsorted array
+Binary	>> find the position of desired data in array with alternative searching 		ranges, it can be performed only sorted array
+		O(logn)
+
+0  1   2   3   4   5				data		mid
+67 89 110 340 650 1200				650       	(end+start)/2
+       
+       M
+67 89 110 340 650 1200				650       	(5+0)/2>> 2>>110
+	      M							end+(mid+1)/2
+67 89 110 340 650 1200				650       	(5+3)/2>> 4>>650
+
+Sort:
