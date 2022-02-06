@@ -52,3 +52,15 @@ Binary	>> find the position of desired data in array with alternative searching 
 67 89 110 340 650 1200				650       	(5+3)/2>> 4>>650
 
 Sort:
+
+
+
+Tasks:
+1. Find the first two minimum budget cars from available car price of 10
+
+2. Find the first two minimum budget cars from available car price of 10 by considering user budget
+
+3. Display the stocks in ration store those are distributed between user given start and end ranges(positions) among 20 days
+(String array)
+end within length
+start within end
